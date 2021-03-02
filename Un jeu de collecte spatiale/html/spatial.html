@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Jeu de collecte spatiale</title>
+    <link rel="stylesheet" href="../css/spatial.css" />
+  </head>
+  <body>
+    <main>
+        <h2>Bonus : <span id="info1">0</span></h2>
+        <h2>Collisions : <span id="info2">0</span></h2>
+        <h2>Score : <span id="info3">0</span></h2>
+        <div id="jeu">
+            <img id="fond1" class="fond" src="../img/fond.png">
+            <img id="fond2" class="fond" src="../img/fond.png">
+            <img id="soucoupe" src="../img/soucoupe.png">
+            <img id="bon" src="../img/bon.png">
+            <img id="mauvais" src="../img/mauvais.png">
+        </div>
+
+
+    <audio preload="auto" id="son" autoplay="autoplay" loop="loop">
+        <source src="../musique/audio.mp3" type="audio/mp3">
+        <source src="../sons/beep.mp3" type="audio/mp3">
+        <source src="../sons/beep.mp3" type="audio/ogg">
+    </audio>
+              
+    <script src="https://code.jquery.com/jquery-1.12.3.js"   integrity="sha256-1XMpEtA4eKXNNpXcJ1pmMPs8JV+nwLdEqwiJeCQEkyc="   crossorigin="anonymous"></script>
+    <script src="../js/spatial.js"></script>
+  </body>

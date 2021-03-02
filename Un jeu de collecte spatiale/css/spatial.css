@@ -1,0 +1,37 @@
+main {
+    text-align: center;
+}
+#jeu{
+    margin-left: 600px;
+    margin-top: 50px;
+    width: 400px;
+    height: 400px;
+    border: 2px black solid;
+    overflow: hidden;
+    position: relative;
+  }
+.fond{
+  margin-bottom:-5px;
+  z-index: 10;
+  position: relative;
+}
+#soucoupe{
+  z-index: 200;
+  position: absolute;
+  top: 10px;
+  left: 48px;
+}
+#bon{
+  z-index:100;
+  position: absolute;
+  top: -200px;
+  left: 0px;
+}
+#mauvais{
+  z-index:100;
+  position: absolute;
+  top: -250px;
+  left: 24px;
+}
+
+  

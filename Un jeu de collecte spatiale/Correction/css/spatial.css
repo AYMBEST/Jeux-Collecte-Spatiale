@@ -1,0 +1,22 @@
+#jeu{
+  width: 600px;
+  height: 400px;
+  border: 2px black solid;
+  background: url('../img/fond.png');
+}
+#soucoupe{
+  z-index: 200; 
+  position: absolute; 
+  top: 20px; 
+  left: 70px;
+}
+#bon{
+  z-index: 100; 
+  position: absolute; 
+  display: none;
+}
+#mauvais{
+  z-index: 100; 
+  position: absolute; 
+  display: none;
+}
